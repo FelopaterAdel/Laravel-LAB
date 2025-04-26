@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.pagination {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem; /* Equivalent to Tailwind's space-x-2 */
+}
+
+.pagination li {
+    display: inline-flex;
+    align-items: center;
+}
